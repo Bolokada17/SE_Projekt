@@ -34,15 +34,15 @@ public class Testfaelle_3 {
     }
     //Parameter definieren
     @Parameters
-    public static Collection<Objects[]> param(){
-        return Arrays.asList(new Objects[][] {
-               /* {1,3,3},
-                {2,3,9},
-                {3,3,18},
-                {4,3,30},
-                {5,3,45},
-                {6,3,63}*/
-        });
+    public static Collection<Object[]> param(){
+        return Arrays.asList(
+                new Object[]{1,3,3},
+                new Object[]{2,3,9},
+                new Object[]{3,3,18},
+                new Object[]{4,3,30},
+                new Object[]{5,3,45},
+                new Object[]{6,3,63}
+        );
     }
 
     @Test
